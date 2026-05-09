@@ -1,0 +1,40 @@
+[project]
+name = "propainter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "addict>=2.4.0",
+    "av>=17.0.1",
+    "einops>=0.8.2",
+    "future>=1.0.0",
+    "gdown>=6.0.0",
+    "gitpython>=3.1.50",
+    "gradio>=6.14.0",
+    "hickle>=5.0.3",
+    "imageio-ffmpeg>=0.6.0",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "omegaconf>=2.3.0",
+    "opencv-python>=4.13.0.92",
+    "openmim>=0.3.9",
+    "progressbar2>=4.5.0",
+    "psutil>=7.2.2",
+    "pyyaml>=6.0.3",
+    "requests>=2.33.1",
+    "scikit-image>=0.26.0",
+    "scipy>=1.17.1",
+    "segment-anything",
+    "tensorboard>=2.20.0",
+    "thinplate",
+    "timm>=1.0.27",
+    "torch>=1.7.1",
+    "torchvision>=0.8.2",
+    "tqdm>=4.67.3",
+    "yapf>=0.43.0",
+]
+
+[tool.uv.sources]
+thinplate = { git = "https://github.com/cheind/py-thin-plate-spline" }
+segment-anything = { git = "https://github.com/facebookresearch/segment-anything.git" }
