@@ -346,7 +346,7 @@ sam_checkpoint_url_dict = {
     'vit_l': "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth",
     'vit_b': "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth"
 }
-checkpoint_fodler = os.path.join('..', '..', 'weights')
+checkpoint_fodler = os.path.join('weights')
 
 sam_checkpoint = load_file_from_url(sam_checkpoint_url_dict[args.sam_model_type], checkpoint_fodler)
 cutie_checkpoint = load_file_from_url(os.path.join(pretrain_model_url, 'cutie-base-mega.pth'), checkpoint_fodler)
