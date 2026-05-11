@@ -13,7 +13,7 @@ This guide walks you through the web demo step by step, even if it’s your firs
 **Local (advanced):**
 1. Follow the main README to install dependencies and download weights.
 2. Run: `python app.py`
-3. Open the URL shown in the terminal (default: `http://localhost:8000`).
+3. Open the URL shown in the terminal (Gradio prints the exact address).
 
 ---
 
@@ -105,4 +105,4 @@ If you’re unsure, **leave everything as-is**.
 ---
 
 ## You’re done!
-If you want to try quickly, use the **Examples** section at the bottom of the demo.
+If you want to try it quickly, use the **Examples** section at the bottom of the demo.
